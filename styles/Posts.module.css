@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2rem;
+
+  background-color: #f2f2f2;
+}
+
+.button {
+  padding: 8px;
+  border-radius: 5px;
+
+  border: none;
+  outline: none;
+
+  background-color: #d86e0b;
+
+  transition: 0.1s background-color cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.button:hover {
+  background-color: #b35b0a;
+  cursor: pointer;
+}
+
+.posts {
+  padding: 2rem;
+}
