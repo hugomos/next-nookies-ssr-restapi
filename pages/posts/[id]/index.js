@@ -62,10 +62,7 @@ export default function Post({ post, comments }) {
           </ul>
         </div>
         <div>
-          <Link href={`${post.id}/comments`}>Ir para comentarios do post</Link>
-        </div>
-        <div>
-          <Link href={'/posts'}>Voltar para Home</Link>
+          <Link href={'/posts'}>Voltar para posts</Link>
         </div>
       </div>
     </main>
